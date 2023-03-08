@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: white;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+    
+    
+}
+.nav_cont{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 11px;
+    border-bottom: 1px solid lightgray;
+}
+// Logobox uchun stillar
+.logobox{
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+    .logo_img{
+        width: 64px;
+        height: 44px;
+        margin-bottom: 6px;
+    }
+    .logo_text{
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        align-items: flex-end;
+        height: 80px;
+        text-transform: uppercase;
+        padding-top: 10px !important;
+    }
+}
+// navlink uchun style
+
+.navlist{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .navlink{
+        width: 36%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 14px;
+        color: #535765;
+        font-weight: 400;
+    }
+    .contact{
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+.imgr{
+    width: 24px;
+    img{
+        width: 24px;
+    }
+}
+
+.toggleBtn{
+    display: none;
+}
+.activist{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 78px;
+}
