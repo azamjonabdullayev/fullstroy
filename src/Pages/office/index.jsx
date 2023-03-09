@@ -8,7 +8,7 @@ function index() {
       <div className="office_cont container">
         <div className="office_top">
           <h2 className="office_title">
-            Bizning Ofice
+            Bizning Office
           </h2>
         </div>
         <div className="office_card">

@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from './components/Navbar' 
 import Home from './Pages/Home'
-import About from './Pages/about'
+import Contact from './Pages/contact'
 import Work from './Pages/Work'
 import Office from './Pages/office'
+import Instagram from './Pages/instagram'
+
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <Work />
       <Office />
+      <Instagram />
+      <Contact />
     </>
   )
 }

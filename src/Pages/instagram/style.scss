@@ -1,0 +1,13 @@
+.instagram_cards{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    .instagram_card{
+        width: 315px;
+        video{
+            width: 315px;
+            height: 320px;
+            object-fit: cover;
+        }
+    }
+}

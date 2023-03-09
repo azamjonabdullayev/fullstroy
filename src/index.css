@@ -46,3 +46,14 @@ input,button{
   outline: none;
   border: none;
 }
+@media (max-width:1144px){
+    .home_title{
+      font-size: 57px !important;
+    }
+    .navlist{
+      width: 70%;
+    }
+    .navlink{
+      width: 60%;
+    }
+}

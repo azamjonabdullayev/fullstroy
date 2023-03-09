@@ -1,0 +1,41 @@
+.contact_box{
+    display: flex;
+    justify-content: space-between;
+    height: 560px;
+}
+.contact_card{
+    width: 48%;
+    
+}
+.contact_title{
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.left ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    background: #F5F5F5;
+    padding-left: 52px;
+}
+.right {
+    iframe{
+        width: 100%;
+        height: 560px;
+        border: none;
+    }
+}
+.left_subtitle{
+    display: flex;
+    flex-direction: column;
+    a{
+        color: blue;
+        width: 25%;
+        &:hover{
+            display: block;
+            color: lightseagreen;
+        }
+    }
+}
